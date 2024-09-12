@@ -74,8 +74,6 @@ The following puzzles were successfully solved by our program:
 
 Our implementation is close to its peak performance for the given time constraints. While our solver efficiently handles puzzles up to size 7x7, it struggles with larger grids due to excessive backtracking during row and column clue verification.
 
-### Possible Improvements:
-
 A more efficient approach could be to construct the snake cell by cell from one head, checking all constraints simultaneously. This could reduce backtracking and eliminate the need for post-snake construction connectivity checks. Given more time, this method would likely improve the solver's ability to handle larger puzzles, such as 10x10 and beyond.
 
 ## Conclusion
